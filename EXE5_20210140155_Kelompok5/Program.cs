@@ -40,14 +40,22 @@ namespace EXE5_20210140155_Kelompok5
         {
             if (nur == null)
             {
-                Console.WriteLine("queue is empty");
+                Console.WriteLine("Queue is empty");
                 return;
             }
             nur = nur.next;
             if (nur == null)
                 azizah = null;
         }
+        public void display()
+        {
+            if (nur == null)
+            {
+                Console.WriteLine("Queue is empty");
+                return;
+            }
 
+        }
     }
 }
 

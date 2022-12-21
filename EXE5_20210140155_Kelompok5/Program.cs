@@ -36,6 +36,17 @@ namespace EXE5_20210140155_Kelompok5
             nur.next = kel5;
             nur = kel5;
         }
+        public void delete()
+        {
+            if (nur == null)
+            {
+                Console.WriteLine("queue is empty");
+                return;
+            }
+            nur = nur.next;
+            if (nur == null)
+                azizah = null;
+        }
 
     }
 }

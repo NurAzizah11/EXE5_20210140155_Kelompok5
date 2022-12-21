@@ -11,6 +11,17 @@ namespace EXE5_20210140155_Kelompok5
         public string name;
         public Node next;
     }
+    class queue
+    {
+        Node nur, azizah;
+
+        public queue()
+        {
+            nur = null;
+            azizah = null;
+        }
+
+    }
 }
 
    

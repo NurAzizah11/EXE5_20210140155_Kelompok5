@@ -20,6 +20,22 @@ namespace EXE5_20210140155_Kelompok5
             nur = null;
             azizah = null;
         }
+        public void insert()
+        {
+            string k5;
+            Node kel5 = new Node();
+            Console.WriteLine("Masukkan element data");
+            k5 = Console.ReadLine();
+            kel5.name = k5;
+            kel5.next = null;
+            if (nur == null)
+            {
+                nur = kel5;
+                azizah = kel5;
+            }
+            nur.next = kel5;
+            nur = kel5;
+        }
 
     }
 }
